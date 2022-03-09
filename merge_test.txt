@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Engineering is so fun!
+=======
+'Software engineering is fun!'
+Engineering is not fun!
+>>>>>>> test_branch
