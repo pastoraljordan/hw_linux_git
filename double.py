@@ -1,9 +1,9 @@
-def double(func):
+def doubler(func):
     def wrapper():
         func()
         func()
     return wrapper
 
-@double
+@doubler
 def test():
     print("Does it work?")
