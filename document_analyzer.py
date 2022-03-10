@@ -30,6 +30,7 @@ def find_freq_words():
     wordcount = sorted(wordcount, key=number, reverse=True)
 
     # Prints out the top 5 most frequent words
+    print("\r")
     for key, value in wordcount[0:5]:
         print(f"{value}: {key}")
 
