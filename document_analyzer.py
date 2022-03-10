@@ -1,6 +1,6 @@
-def find_freq_words(textfile):
+def find_freq_words():
     # Creates a list of all the words in the document
-    file = open(textfile, encoding='utf8').read()
+    file = open("document.txt", encoding='utf8').read()
     all_words = file.split(" ")
 
     # A list that will contain the words without repeats
