@@ -20,12 +20,17 @@ def find_freq_words():
                 count += 1
         wordcount.append((count, word))
 
+    # Helper method to get the word count of the tuple
     def number(item):
         return item[0]
 
-    # print(wordcount)
+    # First sort is to sort the words alphabetically
+    wordcount = sorted(wordcount)
+    # Second sort is to sort the words by the count or how many times it appears
     wordcount = sorted(wordcount, key=number, reverse=True)
-    # print(wordcount)
 
+    # Prints out the top 5 most frequent words
     for key, value in wordcount[0:5]:
         print(f"{value}: {key}")
+
+find_freq_words()
