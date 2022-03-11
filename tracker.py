@@ -9,9 +9,3 @@ def func_counter(func):
 @func_counter
 def foo(y):
     return y + 2 ** 3 - 34
-
-
-foo(1)
-foo(1)
-print(foo.counter)
-
