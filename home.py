@@ -14,5 +14,5 @@ def home():
     <ul>"""
     for city in city_names:
         html_string += f'<li>{city}</li>'
-    html_string += '</body></html>'
+    html_string += '</ul></body></html>'
     return html_string
