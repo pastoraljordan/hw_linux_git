@@ -1,10 +1,10 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort
 myapp_obj = Flask(__name__)
 
+name = "Lisa"
+city_names = ["Paris", "London", "Rome", "Tahiti"]
 @myapp_obj.route("/")
 def home():
-    name = "Lisa"
-    city_names = ["Paris", "London", "Rome", "Tahiti"]
     html_string =  f"""<html>
     <head>
     </head>
