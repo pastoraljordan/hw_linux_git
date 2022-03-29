@@ -1,4 +1,4 @@
-from app import myapp_obj
+from app import myobj
 from flask import Flask, flash, redirect, render_template, request, session, abort, url_for
 
 name = "Lisa"
