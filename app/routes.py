@@ -4,7 +4,7 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 name = "Lisa"
 city_names = ["Paris", "London", "Rome", "Tahiti"]
 
-@myapp_obj.route("/", methods = ['POST', 'GET'])
+@myobj.route("/", methods = ['POST', 'GET'])
 def home():
     if request.method == 'POST':
         user = request.form["city"]
